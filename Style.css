@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+/* Navbar */
+.home{
+    background: linear-gradient(rgba(249, 26, 26, 0.5),rgba(15, 53, 223, 0.5)), url(./assets/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.598);
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links a:hover{
+    color: yellowgreen;
+    text-decoration: overline;
+}
+
+/* Search */
+.searchCity, .location {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.searchCity input {
+    outline: none;
+    height: 50px;
+    width: 500px;
+    font-size: 18px;
+}
+.searchCity button {
+    font-size: 18px;
+    padding: 0px 20px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+}
+
+/* weatherInfo */
+
+.weatherInfo {
+    background-color: rgba(231,231,231);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    opacity: 0.5;
+}
+.weatherInfo h1{
+    font-size: 64px;
+    padding: 60px 0px;
+}
