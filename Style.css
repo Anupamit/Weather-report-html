@@ -63,3 +63,13 @@ body {
     font-size: 64px;
     padding: 60px 0px;
 }
+
+/* About us */
+.aboutus{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(249, 26, 26, 0.5),rgba(15, 53, 223, 0.5)), url(./assets/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
